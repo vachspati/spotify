@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="main">
+      <div id="sidebar">
+        <div id="brand-logo">
+          <div class="flex-horizontal">
+            <img
+              src="Assets/Spotify logo.png"
+              alt="Spotify logo"
+              id="spotify-logo"
+            />
+          </div>
+        </div>
+        <div id="menu-options">
+          <div class="menu-item flex-horizontal">
+            <img src="Assets/home.svg" alt="Home button" />
+            <span>Home</span>
+          </div>
+          <div class="menu-item flex-horizontal">
+            <img src="Assets/search-white.svg" alt="Search button" />
+            <span>Search</span>
+          </div>
+          <div class="menu-item flex-horizontal">
+            <img src="Assets/library.svg" alt="Library button" />
+            <span>Your Library</span>
+          </div>
+        </div>
+        <div id="playlists">
+          <div class="menu-item flex-horizontal">
+            <img src="Assets/Plus-small.svg" alt="Create Playlist" />
+            <span>Create Playlist</span>
+          </div>
+          <div class="menu-item flex-horizontal">
+            <img src="Assets/Heart.svg" alt="Home button" />
+            <span>Liked Songs</span>
+          </div>
+          <div class="menu-item flex-horizontal">
+            <img src="Assets/media-podcast.svg" alt="Home button" />
+            <span>Your Episodes</span>
+          </div>
+        </div>
+      </div>
+      <a class="flex-horizontal" id="install-btn" href="#"
+        > Install App</a
+      >
+      <div id="center-content">
+        <div class="flex-horizontal" id="search-area">
+          <span class="arrow"><img src="Assets/arrow-left.svg" alt="Left arrow" ></span>
+          <span class="arrow"><img src="Assets/arrow-right.svg" alt="Right arrow" ></span>
+          <form>
+            <div id="search-bar">
+              
+              <input type="text" placeholder="Artists, Songs or Podcasts">
+            </div>
+          </form>
+        </div>
+        <br>
+        <h3>Your top genres</h3>
+        <div class="flex-horizontal" id="top-genres">
+          <div class="genre-card1">Pop</div>
+          <div class="genre-card2">Hip Hop</div>
+        </div>
+        <h3>Browse all</h3>
+        <div class="flex-horizontal" id="browse">
+          <div class="browse-card1">Podcasts</div>
+          <div class="browse-card2">Made for You</div>
+          <div class="browse-card3">Charts</div>
+          <div class="browse-card4">New Release</div>
+        </div>
+      </div>
+      <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt pariatur impedit consequatur neque? Tempore enim expedita perferendis deleniti, totam eaque natus laborum sint obcaecati vitae, distinctio ab est facere voluptate? -->
+      
+    </section>
+    <section class="flex-horizontal" id="footer">
+      <div class="flex-horizontal" id="current-song">
+        <img src="Assets/song.png" alt="" />
+        <div id="song-info">
+          <span id="song">Unstoppable</span> <br />
+          <span id="artist">The Score</span>
+        </div>
+        <img src="Assets/heart.svg" alt="heart">
+      </div>
+      <div id="player">
+        <div class="flex-horizontal" id="controls">
+          <img src="Assets/shuffle.svg" alt="shuffle button" />
+          <img src="Assets/skip-previous.svg" alt="skip previous" />
+          <img src="Assets/play.svg" alt="play" id="play"/>
+          <img src="Assets/skip-forward.svg" alt="skip forward" />
+          <img src="Assets/repeat-all.svg" alt="repeat" />
+        </div>
+        <div class="flex-horizontal" id="part-played">
+          <span>2:11</span> <img src="Assets/time-bar.svg" alt="time-bar" />
+          <span>2:42</span>
+        </div>
+      </div>    
+  </body>
+</html>
